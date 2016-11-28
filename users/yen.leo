@@ -133,7 +133,7 @@
 <v t="yen.20161011150901.2"><vh>網際動畫範例</vh></v>
 </v>
 </v>
-<v t="yen.20161016012809.1" a="E"><vh>各式內容引用範例</vh>
+<v t="yen.20161016012809.1"><vh>各式內容引用範例</vh>
 <v t="yen.20161016012809.2" a="E"><vh>導入數學符號與方程式</vh>
 <v t="yen.20161016012809.3"><vh>LaTeX 格式方程式</vh></v>
 </v>
@@ -167,7 +167,10 @@
 <v t="amd.20160727120222.1"><vh>@edit 20160921.md</vh></v>
 <v t="leo.20161014142409.1"><vh>@edit 20161014.md</vh></v>
 <v t="leo.20161024160947.1"><vh>@edit 20161024.md</vh></v>
-<v t="leo.20161031141953.1"><vh>@edit 20161031.md</vh></v>
+<v t="leo.20161031141956.1"><vh>@edit 20161031.md</vh></v>
+<v t="leo.20161121152952.1"><vh>@edit 20161114.md</vh></v>
+<v t="leo.20161121142432.1"><vh>@edit 20161121.md</vh></v>
+<v t="leo.20161127182659.1" a="M"><vh>@edit 20161127.md</vh></v>
 </v>
 </v>
 </v>
@@ -307,11 +310,10 @@ print("hello")
 ### 虎科大機械設計工程系
 
 &lt;small&gt;
-Created by [KMOLab](http://chiamingyen.github.io/kmolab/blog/)
+Created by [40223234](https://s40223234.github.io/)
 &lt;/small&gt;
 
-[12345](blog/index.html)
-
+[s40223234課程網誌](blog/index.html)
 </t>
 <t tx="amd.20161004104641.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
