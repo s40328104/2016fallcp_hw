@@ -310,10 +310,10 @@ print("hello")
 ### 虎科大機械設計工程系
 
 &lt;small&gt;
-Created by [40223234](https://s40223234.github.io/)
+Created by [40328104](https://s40328104.github.io/)
 &lt;/small&gt;
 
-[s40223234課程網誌](blog/index.html)
+[s40328104課程網誌](blog/index.html)
 </t>
 <t tx="amd.20161004104641.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
