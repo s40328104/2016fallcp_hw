@@ -6,7 +6,8 @@
 
 &lt;script type="text/javascript" 
     src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js"&gt;
-&lt;/script&gt;
+
+    &lt;/script&gt;
 
 &lt;!-- 啟動 Brython --&gt;
 
@@ -24,13 +25,35 @@ brython(1);
 from browser import alert
 from browser import document
 from browser import.html
+import random
 #print("test")
 #alert("test")
 con1 = document["con"]
-for i in range(5):
-    #con1&lt;="test" + "&lt;br/&gt;"
-    con1&lt;="test" + html.BR()
-&lt;/script&gt;</summary><category term="Brython"></category></entry><entry><title>W14 Brython 繪圖練習</title><link href="./w14-brython-hui-tu-lian-xi.html" rel="alternate"></link><published>2016-12-12T14:35:00+08:00</published><updated>2016-12-12T14:35:00+08:00</updated><author><name>40328104</name></author><id>tag:,2016-12-12:./w14-brython-hui-tu-lian-xi.html</id><summary type="html">&lt;p&gt;以下為第十四週開始的程式練習，要利用&lt;a href="http://mde.tw/2016fallcp/course/Python3Programs.txt"&gt;http://mde.tw/2016fallcp/course/Python3Programs.txt&lt;/a&gt; 要整理Brython的用法。&lt;/p&gt;
+#1.利用亂數模組產生標準答案  
+標準答案 = random.randint(1, 100)
+
+#2.取得
+
+
+
+con1&lt;=str(標準答案)
+"'
+try:
+    for i in range(1):
+        #con1&lt;="test" + "&lt;br/&gt;"
+        youInput=int(input("請輸入一個整數!"))
+        #con1&lt;="test" + html.BR()
+        output = yourinput+1
+        con1&lt;="你輸入的整數加上1之後,為" +str(output)
+expect:
+    con1&lt;="拜託請輸入整數!"
+'''
+def b1(e):
+    alert("click")    
+document["b1"].bind("click123",b1)
+&lt;/script&gt;
+
+&lt;p&gt;&lt;button id="b1"&gt;玩猜數字遊戲&lt;/button&gt;&lt;/p&gt;</summary><category term="Brython"></category></entry><entry><title>W14 Brython 繪圖練習</title><link href="./w14-brython-hui-tu-lian-xi.html" rel="alternate"></link><published>2016-12-12T14:35:00+08:00</published><updated>2016-12-12T14:35:00+08:00</updated><author><name>40328104</name></author><id>tag:,2016-12-12:./w14-brython-hui-tu-lian-xi.html</id><summary type="html">&lt;p&gt;以下為第十四週開始的程式練習，要利用&lt;a href="http://mde.tw/2016fallcp/course/Python3Programs.txt"&gt;http://mde.tw/2016fallcp/course/Python3Programs.txt&lt;/a&gt; 要整理Brython的用法。&lt;/p&gt;
 
 
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
