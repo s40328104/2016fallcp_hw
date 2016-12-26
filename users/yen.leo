@@ -172,20 +172,20 @@
 <v t="amd.20160727120222.1"><vh>@edit 20160921.md</vh></v>
 <v t="leo.20161024160947.1"><vh>@edit 20161024.md</vh></v>
 <v t="leo.20161031141953.1"><vh>@edit 20161031.md</vh></v>
+<v t="leo.20161226134755.1"><vh>@edit 20161226.md</vh></v>
 </v>
 </v>
 </v>
 <v t="amd.20160106094754.1" a="E"><vh>@path ./../content/pages</vh>
 <v t="amd.20160106094829.1" a="E"><vh>yen 所寫的 pages 文章</vh>
 <v t="amd.20160106094844.1"><vh>@edit pages_1.md</vh></v>
-<v t="leo.20161212143107.1"><vh>@edit 20161212.md</vh></v>
 </v>
 </v>
 <v t="amd.20161004202833.1"><vh>@edit ../README.md</vh></v>
 <v t="yen.20161022111056.1"><vh>@button https server</vh></v>
 <v t="yen.20161022151749.1"><vh>產生 .key 與 .crt</vh></v>
 <v t="leo.20161226131138.1" a="E"><vh>Recovered Nodes</vh>
-<v t="leo.20161226131138.2"><vh>Recovered node "封面投影片內容" from @clean index.html</vh>
+<v t="leo.20161226131138.2" a="E"><vh>Recovered node "封面投影片內容" from @clean index.html</vh>
 <v t="leo.20161226131138.3"><vh>old:封面投影片內容</vh></v>
 <v t="leo.20161226131138.4"><vh>new:封面投影片內容</vh></v>
 </v>
