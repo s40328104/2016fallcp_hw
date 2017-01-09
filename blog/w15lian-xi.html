@@ -322,7 +322,6 @@ init_mathjax();
 
 
 <!-- 導入 Brython 標準程式庫 -->
-
 <script type="text/javascript" 
     src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js">
 </script>
@@ -335,7 +334,8 @@ brython(1);
 }
 </script>
 
-<canvas id="ex1"></div>
+<div id="ex1"></div>
+		    
 <script type="text/python3">
 from browser import document as doc
 container = doc['ex1']
@@ -343,9 +343,8 @@ container = doc['ex1']
 container<="W14練習"
 </script>
 
+<div id="ex2"></div>
 
-
-<canvas id="ex2"></div>
 <script type="text/python3">
 from browser import document as doc
 from browser import html
@@ -356,9 +355,6 @@ mynum=input("要印幾次?")
 for i in range(int(mynum)):
     #container<="W14練習-2"+html.BR()
     container<=mystring+html.BR()
-
-
-
 </script>
             </div>
             <!-- /.entry-content -->
