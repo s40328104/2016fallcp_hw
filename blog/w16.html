@@ -349,12 +349,17 @@ import random
 con1 = document["con"]
 # 1.利用亂數模組產生標準答案
 標準答案 = random.randint(1,100)
+你猜的數字 = int(input("請輸入您所猜的整數:")) 
+猜測次數 = 1
+while 標準答案 != 你猜的數字:
+    if 標準答案 < 你猜的數字:
+        print("太大了，再猜一次 :)加油")
+    else:
+        print("太小了，再猜一次 :)加油")
+    你猜的數字 = int(input("請輸入您所猜的整數:"))
+    猜測次數 += 1
 
-# 2.取得使用者所猜整數 ( 可以使用try except : 防止輸入非整數)
-# 3.根據使用者與標準答案比較大小，並且回應提示字串
-'''假如使用whlie迴圈,可以在使用者沒有猜對之前繼續輸入
-並且累積猜題次數
-'''
+print("猜對了！總共猜了", 猜測次數, "次")
 con1 <= str(標準答案)
 '''
 try:
@@ -388,6 +393,11 @@ document["b1"].bind("click",b1)
             <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
                 <ul class="list-group" id="recentposts">
                     <li class="list-group-item">
+                        <a href="./2016fallcpqi-mo-kao-zhou.html">
+                            2016fallcp期末考週
+                        </a>
+                    </li>
+                    <li class="list-group-item">
                         <a href="./tags-2016fall-cpa-ke-cheng-wang-zhi-hu-wei-ke-da-mde.html">
                             Tags - 2016Fall CPA 課程網誌 (虎尾科大MDE)
                         </a>
@@ -405,11 +415,6 @@ document["b1"].bind("click",b1)
                     <li class="list-group-item">
                         <a href="./chuang-zao-li-2016fall-cpa-ke-cheng-wang-zhi-hu-wei-ke-da-mde.html">
                             創造力 - 2016Fall CPA 課程網誌 (虎尾科大MDE)
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="./biao-da-neng-li-2016fall-cpa-ke-cheng-wang-zhi-hu-wei-ke-da-mde.html">
-                            表達能力 - 2016Fall CPA 課程網誌 (虎尾科大MDE)
                         </a>
                     </li>
                 </ul>
