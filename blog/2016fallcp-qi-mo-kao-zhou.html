@@ -321,11 +321,13 @@ init_mathjax();
                 <p>w18</p>
 <p>W16 心得與程式範例:
 心得:利用Brython做出猜數字遊戲,做出來時無法顯示數字,但後來知道錯的地方改正後,了解到其中自己的錯誤與其中程式語言代表的意思
+<pre class="brush: python">
 <!-- 導入 Brython 標準程式庫 -->
-<script type="text/javascript" src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js">
-</script></p>
-<!-- 啟動 Brython -->
+<script type="text/javascript" 
+    src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js">
+</script>
 
+<!-- 啟動 Brython -->
 <script>
 window.onload=function(){
 brython(1);
@@ -333,9 +335,7 @@ brython(1);
 </script>
 
 <!-- 以下實際利用  Brython  -->
-
 <div id="con"></div>
-
 <script type="text/python3">
 from browser import alert
 from browser import document
@@ -372,15 +372,16 @@ def b1(e):
     alert("click")
 document["b1"].bind("click", b1)
 </script>
-
-<p><button id="b1">玩猜數字遊戲</button></p>
-</pre>
+<button id="b1">玩猜數字遊戲</button>
 
 <p>W15心得與程式範例:
 利用Brython做出彈出視窗,做出來後很有成就感
 <!-- 導入 Brython 標準程式庫 -->
-<script type="text/javascript" src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js">
-</script></p>
+
+<script type="text/javascript" 
+    src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js">
+</script>
+
 <!-- 啟動 Brython -->
 
 <script>
@@ -412,7 +413,42 @@ for i in range(int(mynum)):
     container <= mystring + html. BR()
 </script>
 
+<pre class="brush: python">
+<!-- 導入 Brython 標準程式庫 -->
+<script type="text/javascript" 
+    src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js">
+</script>
+
+<!-- 啟動 Brython -->
+<script>
+window.onload=function(){
+brython(1);
+}
+</script>
+
+<div id="ex1"></div>
+<script type="text/python3">
+from browser import document as doc
+container = doc['ex1']
+
+container <= "W14 練習"
+</script>
+
+<div id="ex2"></div>
+<script type="text/python3">
+from browser import document as doc
+from browser import html
+container = doc['ex2']
+mystring = input("要印出什麼字串?")
+mynum = input("要印幾次?")
+
+
+for i in range(int(mynum)):
+    #container <= "W14 練習-2" + html. BR()
+    container <= mystring + html. BR()
+</script>
 </pre>
+
             </div>
             <!-- /.entry-content -->
         </article>
